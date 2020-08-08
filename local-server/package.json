@@ -1,0 +1,26 @@
+{
+  "name": "remotemouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node --inspect server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaspopp0/remotemouse.git"
+  },
+  "author": "Lucas Popp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaspopp0/remotemouse/issues"
+  },
+  "homepage": "https://github.com/lucaspopp0/remotemouse#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ip": "^1.1.5",
+    "net": "^1.0.2",
+    "robotjs": "^0.6.0"
+  }
+}
