@@ -29,6 +29,7 @@ function startServer() {
         const remoteAddress = socket.remoteAddress + ':' + socket.remotePort;
         console.log(`New incoming connection from ${remoteAddress}`);
 
+        // Trailing ||| used to separate messages on the other end
         socket.write('node|||');
     
         socket.setEncoding('utf8');
