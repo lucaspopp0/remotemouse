@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/lucaspopp0/remotemouse#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "ip": "^1.1.5",
     "net": "^1.0.2",
     "robotjs": "^0.6.0"
